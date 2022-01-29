@@ -1,0 +1,222 @@
+
+/************************************************TAG SELECTORS*********************************************************/
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+h1 {  
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+    font-weight: 900; 
+    padding: 0 0 40px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 2.5rem;  
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.5rem;  
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/************************************************TITLE SECTION*********************************************************/
+
+/* Navigation Bar Styling */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-box {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-image {
+    width: 22%;
+    transform: rotate(25deg);
+    right: 25%;
+    position: absolute;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+
+
+/************************************************FEATURES SECTION*********************************************************/
+
+.feature-box {
+    padding: 6.25rem 2.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.fas {
+    color: #ef8172;
+    padding-bottom: 15px;
+}
+.fas:hover {
+    color: #ff4c68;
+}
+
+div.feature-box > h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-row {
+    margin:0;
+}
+
+#features {
+    background-color: #fff;
+    padding: 5% 15%; 
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+
+
+/************************************************TESTIMONIAL SECTION*********************************************************/
+
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 1.25rem;
+}
+
+.press-image {
+    width: 15%;
+    padding: 1.25rem 1.875rem 3.125rem;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+
+
+/************************************************PRICE SECTION*********************************************************/
+
+.price-card {
+    padding: 1.25rem;
+}
+
+.pricing-card {
+    margin-top: 3.75rem;
+}
+
+.pricing-heading {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3rem;  
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#pricing {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+
+
+
+/************************************************CALL TO ACTION (CTA) SECTION*********************************************************/
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.cta-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+
+
+/************************************************FOOTER*********************************************************/
+
+.social-icons {
+    padding: 0.8rem 0.8rem 0.8rem;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 15%;
+}
+
+
+
+
+
+
+/************************************************MEDIA QUERY*********************************************************/
+
+@media (max-width: 1000px) {
+    .iphone-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+    padding-top: 50px;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
